@@ -1,0 +1,103 @@
+header {
+    height: 75px;
+    line-height: 75px;
+    white-space: nowrap;
+    background-color: #007580;
+}
+
+aside {
+    height: 150px;
+    line-height: 150px;
+    white-space: nowrap;
+    background-color: #282846;
+}
+
+section.first div {
+    height: 125px;
+    line-height: 125px;
+    white-space: nowrap;
+}
+
+section.first div:nth-child(1) {
+    background-color: #fed049;
+}
+
+section.first div:nth-child(2) {
+    background-color: #7868e6;
+}
+
+section.second div {
+    height: 250px;
+    line-height: 250px;
+    white-space: nowrap;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+section.second div:nth-child(1) {
+    background-color: #0fa116;
+}
+
+section.second div:nth-child(2) {
+    background-color: #b4aee8;
+}
+
+section.second div:nth-child(3) {
+    background-color: #440a67;
+}
+
+section.second div:nth-child(4) {
+    background-color: #94571e;
+}
+
+footer div {
+    clear: left;
+    height: 80px;
+    line-height: 80px;
+    white-space: nowrap;
+    background-color: #e95722;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+    aside {
+        display: inline;
+        float: left;
+        height: 600px;
+        line-height: 600px;
+        width: 20%;
+    }
+    section.outer {
+        display: inline;
+        float: right;
+        width: 80%;
+    }
+    section.first div {
+        display: inline;
+        float: left;
+        width: 50%;
+        height: 200px;
+        line-height: 200px;
+    }
+    section.second div {
+        display: inline;
+        float: left;
+        width: 25%;
+        height: 250px;
+        line-height: 250px;
+    }
+    footer div {
+        display: inline-block;
+        width: 80%;
+        height: 150px;
+        line-height: 150px;
+    }
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
